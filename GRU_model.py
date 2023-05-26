@@ -71,7 +71,7 @@ def gru_model1(input_length, input_dim):
 
 # =================================================================
 # 【Splite and Scaling data】
-df = pd.read_csv('./train_data.csv')
+df = pd.read_csv('./dataset/train_data.csv')
 y =df["total_sales"]
 x =df.drop("total_sales", axis=1)
 
