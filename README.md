@@ -16,3 +16,8 @@ The model is referenced from TEJ and then fitted with my store sales data.
 <img decoding="async" src="https://i.imgur.com/AshTR83.png" width="50%">
 
 ### Thoughts
+To the reader:
+It can be adjusted according to your data.
+I try to adjust some parameters to fit the data better.
+I reduce the DROPOUT parameters, but the result will make the predicted value smooth, so 30% is my finally choose.
+I added more neural layer, but it had nothing change, so it is enough for me to evaluate two neural layers.
